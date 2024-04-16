@@ -68,7 +68,7 @@ resources: {}
 
 otlp:
   # Endpoint OTLP Collector
-  endpoint: http://localhost:4317
+  endpoint: ~
   # Protocol OTLP Collector (http or grpc)
   protocol: ~
   # Insecure (true or false)
