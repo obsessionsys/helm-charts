@@ -81,9 +81,9 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       volumes:
-        - name: {{ $fullName }}-{{ $name }}-config
+        - name: beyla-config
           configMap:
-            name: beyla-config
+            name: {{ $fullName }}-{{ $name }}-config
         - name: var-run-beyla
           emptyDir: {}
       {{- with .Values.volumes }}
