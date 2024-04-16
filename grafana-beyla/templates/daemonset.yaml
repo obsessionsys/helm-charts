@@ -70,11 +70,13 @@ spec:
                 secretKeyRef:
                   name: {{ $fullName }}-{{ $name }}-credentials
                   key: otlp-endpoint
+          {{- if .Values.otlp.headers }}
             - name: OTEL_EXPORTER_OTLP_HEADERS
               valueFrom:
                 secretKeyRef:
                   name: {{ $fullName }}-{{ $name }}-credentials
                   key: otlp-headers
+          {{- end }}
             {{- if .Values.extraEnvs -}}
               {{- toYaml .Values.extraEnvs | nindent 12 }}
             {{- end }}
