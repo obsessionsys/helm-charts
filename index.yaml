@@ -1,0 +1,17 @@
+apiVersion: v1
+entries:
+  grafana-beyla:
+  - apiVersion: v2
+    appVersion: 1.5.1
+    created: "2024-04-25T13:31:28.25352553Z"
+    description: A Helm chart for Kubernetes
+    digest: 60a1839571440ea4b7553275e4f2a160c4e5dad8ec8e21b350f7dbd81ed2c8fe
+    maintainers:
+    - email: obsessionsys@gmail.com
+      name: Viltaly Fedorov
+    name: grafana-beyla
+    type: application
+    urls:
+    - https://github.com/obsessionsys/helm-charts/releases/download/grafana-beyla-1.5.1/grafana-beyla-1.5.1.tgz
+    version: 1.5.1
+generated: "2024-04-25T13:31:28.253537082Z"
