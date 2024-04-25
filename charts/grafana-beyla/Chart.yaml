@@ -23,6 +23,6 @@ version: 1.5.3
 # It is recommended to use it with quotes.
 appVersion: "1.5.2"
 
-maintainers:  
-  - name: Viltaly Fedorov 
+maintainers:
+  - name: Viltaly Fedorov
     email: obsessionsys@gmail.com
