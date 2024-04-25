@@ -68,7 +68,8 @@ resources: {}
 
 otlp:
   # Endpoint OTLP Collector
-  endpoint: ~
+  # For correct operation, this endpoint must be installed and point to the opentelemtry collector service or ingress
+  endpoint: http://localhost
   # Protocol OTLP Collector (http or grpc)
   protocol: ~
   # Insecure (true or false)
