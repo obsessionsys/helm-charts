@@ -48,7 +48,7 @@ securityContext:
   #   add:
   #     - SYS_ADMIN     # <-- Important. Required for most eBPF probes to function correctly.
   #     - SYS_PTRACE    # <-- Important. Allows Beyla to access the container namespaces and inspect executables.
-  #     #- SYS_RESOURCE # <-- pre 5.11 only. Allows Beyla to increase the amount of locked memory.
+  #     #- SYS_RESOURCE # <-- pre 5.11 kenrel only. Allows Beyla to increase the amount of locked memory.
 
 # service:
 #   type: ClusterIP
