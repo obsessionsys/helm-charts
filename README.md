@@ -23,3 +23,9 @@ To uninstall the chart:
 ```
     helm delete beyla
 ```
+
+For generated Helm Docs need to use command
+
+```
+docker run --rm --volume "$(pwd):/helm-docs" -u "$(id -u)" jnorwood/helm-docs:v1.8.1
+```
